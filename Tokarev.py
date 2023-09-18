@@ -6,8 +6,8 @@ year_1=(int(input('Введите год для проверки високос�
 
 
 
-#if Lala.is_valid_date(date_str):
-#    print(f"{date_str} True")
-#else:
-#    print(f"{date_str} False")
+if Lala.is_valid_date(date_str):
+    print(f"{date_str} True")
+else:
+    print(f"{date_str} False")
 

@@ -1,3 +1,12 @@
+def year_1(year):
+    if (year_1 % 4 == 0 and year_1 % 100 != 0) or (year_1 % 400 == 0):
+        print('True')
+    else:
+        print('false')
+
+
+
+
 def is_valid_date(date_str):
     
     try:
@@ -32,15 +41,3 @@ def is_valid_date(date_str):
         
         return False
 
-date_str =input('Введите дату в формате DD.MM.YYYY: ')
-year_1=(int(input('Введите год для проверки високосного: ')))
-if (year_1 % 4 == 0 and year_1 % 100 != 0) or (year_1 % 400 == 0):
-    print('True')
-else:
-    print('false')
-
-
-if is_valid_date(date_str):
-    print(f"{date_str} True")
-else:
-    print(f"{date_str} False")
